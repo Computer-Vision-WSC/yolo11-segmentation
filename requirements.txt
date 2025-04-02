@@ -4,6 +4,4 @@ azure-identity==1.19.0
 azure-mgmt-resource==23.2.0
 azureml-sdk==1.59.0
 azure-ai-ml==1.24.0
-# GitPython==3.1.44
 azure-mgmt-containerregistry==10.3.0
-ultralytics
