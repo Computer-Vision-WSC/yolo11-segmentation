@@ -5,3 +5,4 @@ azure-mgmt-resource==23.2.0
 azureml-sdk==1.59.0
 azure-ai-ml==1.24.0
 azure-mgmt-containerregistry==10.3.0
+ultralytics==8.3.101
