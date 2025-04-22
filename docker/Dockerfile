@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 # 2. Create the conda environment 'yolo11env' with Python 3.12, install pip, ultralytics, and onnx
 RUN conda create --name yolo11env -y python=3.12 \
     && conda run -n yolo11env conda install pip -y \
-    && conda run -n yolo11env pip install ultralytics onnx
+    && conda run -n yolo11env pip install ultralytics onnx mlflow
 
 # Update PATH so Python 3.12 is used by default
 ENV PATH /opt/conda/envs/yolo11env/bin:$PATH
